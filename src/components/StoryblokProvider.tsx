@@ -2,15 +2,15 @@
 
 import type { PropsWithChildren } from "react";
 import { apiPlugin, storyblokInit } from "@storyblok/react";
-import { checkoutExclusivo } from "./checkoutExclusivo";
-import { metaTags } from "./metaTags";
-import { banner } from "./banner";
-import { showroom } from "./showroom";
-import { tituloOfertas } from "./tituloOfertas";
-import { detailsDrawer } from "./detailsDrawer";
-import { offerTabs } from "./offerTabs";
-import { appDownload } from "./appDownload";
-import { videoChannel } from "./videoChannel";
+import { checkoutExclusivo } from "./checkoutExclusivo/checkoutExclusivo";
+import { metaTags } from "./metaTags/metaTags";
+import { banner } from "./banner/banner";
+import { showroom } from "./showroom/showroom";
+import { tituloOfertas } from "./tituloOfertas/tituloOfertas";
+import { detailsDrawer } from "./detailsDrawer/detailsDrawer";
+import { offerTabs } from "./offerTabs/offerTabs";
+import { appDownload } from "./appDownload/appDownload";
+import { videoChannel } from "./videoChannel/videoChannel";
 
 storyblokInit({
   accessToken: process.env.NEXT_PUBLIC_STORYBLOK_TOKEN,

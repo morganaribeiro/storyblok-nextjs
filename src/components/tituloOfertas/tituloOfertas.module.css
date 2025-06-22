@@ -1,0 +1,16 @@
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  color: #1f1d1d;
+  font-size: 48px;
+  font-weight: 700; 
+  font-family: Roboto;
+  line-height: 140%;
+
+  span {
+    color: #b41e13;
+  }
+}
