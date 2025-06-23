@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Docs oficial do Storyblok com NextJS
 
-Docs a seguir [https://www.storyblok.com/docs/guides/nextjs/] do storyblok com NextJS 15.
+Passos usados para desenvolver o projeto foi baseado nesse link [https://www.storyblok.com/docs/guides/nextjs/].
 
 First, run the development server:
 
