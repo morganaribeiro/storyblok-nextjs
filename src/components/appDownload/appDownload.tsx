@@ -29,7 +29,7 @@ type PropsBlok = {
 export const appDownload = ({ blok }: PropsBlok) => {
   return (
     <section {...storyblokEditable(blok)} key={blok._uid}>
-      <>Conteúdo do bloco appDownload:</>
+      <h1>Conteúdo do bloco appDownload:</h1>
       <br/>
       {blok.title}
       <br/>
